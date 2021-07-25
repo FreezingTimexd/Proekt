@@ -1,0 +1,230 @@
+.menu{
+	padding-top: 20px;
+	padding-left: 120px;
+}
+.main-menu {
+    padding-top: 40px;
+    padding-right: 70px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.main-menu:hover{
+	color:#FD665E;
+
+}
+.last-main-menu{
+	padding-top: 40px;
+	font-size: 16px;
+	text-decoration: none;
+	color:black;
+
+}
+
+.last-main-menu:hover{
+	color:#FD665E;
+}
+.footer-menu{
+	padding-top: 40px;
+	font-size: 16px;
+	text-decoration: none;
+	color:black;
+}
+.footer-menu:hover{
+	color:#FD665E;
+}
+
+.first-main-menu{
+	padding-left: 45px;
+}
+.right-menu{
+	padding-right: 60px;
+	text-decoration: none;
+	color:black;
+}
+.photos:hover{
+	transition: 1s;
+	transform: scale(1.1);
+}
+.right-menu-p:hover{
+	color:#FD665E;
+	transition: 1s;
+}
+.right-menu-p{
+	padding-right: 30px;
+	text-decoration: none;
+	color:black;
+}
+.menu-button{
+	font-size: 19px;
+	background-color:#FD665E;
+	color:white;
+	padding:14px 30px;
+	border-radius: 5px; 
+	border:none;
+}
+.menu-button:hover{
+	transition: 1s;
+	border: 1px solid black;
+	background: white;
+	color:black;
+}
+
+.pad-top{
+	padding-top: 17px;
+}
+.first-text{
+	padding-top: 80px;
+	font-family: New York Extra Large;
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 110%;
+}
+.color-text{
+	color: #FD665E;
+}
+.second-text{
+	font-size: 16px;
+	padding-top: 20px;
+}
+.button-pad{
+	padding-top: 30px;
+}
+
+
+.second-main-text{
+	padding-top: 120px;
+	font-size: 48px;
+	font-family: New York Extra Large;
+	font-weight: bold;
+}
+.main-text-3{
+	padding-top: 60px;
+	padding-bottom: 20px;
+	font-family: New York Extra Large;
+	font-weight: bold;
+	font-size: 48px;
+}
+.block-1{
+	padding-top: 50px;
+	width: 	600px;
+	height: 200px;
+}
+.block-2{
+	padding-top: 30px;
+	width: 	600px;
+	height: 150px;
+}
+.block-3{
+	padding-top: 30px;
+	width: 	600px;
+	height: 180px;
+}
+.text-block-main{
+	font-size: 18px;
+	font-weight: bold;
+}
+.text-block-second{
+	font-size: 16px;
+}
+.photo-block{
+	background: url('../img/Group 7.png') no-repeat;
+	width:80px;
+	height:120px;
+	float:left;
+}
+.photo-block2{
+	background: url('../img/Group 2.png') no-repeat;
+	width:80px;
+	height:120px;
+	float:left;
+}
+.photo-block3{
+	background: url('../img/Group 3.png') no-repeat;
+	width:80px;
+	height:120px;
+	float:left;
+}
+.skobs{
+	float:right;
+	font-family: Times, serif; /* Шрифт с засечками */
+    font-style: italic;
+    font-weight: bold;
+    color:#FD665E;
+    quotes: "\00ab" "\00bb";
+    font-size: 130px;
+    line-height: 70%;
+}
+
+.main-text-s4{
+	padding-left: 40px;
+	font-size: 32px;
+}
+
+.second-text-s4{
+	padding-left: 40px;
+	padding-top: 50px;
+	font-size: 16px;
+}
+
+.next-color{
+	background-color: #F9F9F9;
+}
+.
+.text-4{
+	padding-top: 220px;
+	font-family: New York Extra Large;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 130%;
+}
+
+.button-last{
+	padding-top: 80px;
+}
+
+.photo-4{
+	text-align: center;
+}
+::-webkit-scrollbar {
+  width: 0;}
+@media screen and (max-width:1399px){
+	.first-main-menu{
+		padding-left: 20px;
+	}
+	.main-menu{
+		padding-right: 40px;
+	}
+	.photo-4{
+	text-align: left;
+}
+.skobs{
+		float: left;
+	}
+}
+@media screen and (max-width:1199px){
+	.first-main-menu{
+		padding-left: 60px;
+	}
+	.photo-lock{
+		padding-left: 90px;
+	}
+	.skobs{
+		float: left;
+	}
+	.photo-4{
+	text-align: left;
+}
+
+}
+@media screen and (max-width:991px){
+	.second-main-text{
+		font-size: 40px;
+	}
+	.photo-lock{
+		padding-left: 30px;
+	}
+	.right-menu{
+	padding-left: 70px;
+}
+}
